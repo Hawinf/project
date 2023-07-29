@@ -266,13 +266,14 @@
 }
 @media (max-width: 472px) {
     .profile-picture {
-        width: 30%;
+        width: 27%;
     }
     .portofolio img {
-        width: 100px;
+        width: 78px;
         height: 100px;
     }
     .text-typing {
+        width: 100%;
         margin-right: 8%;
     }
     .mid-section {
