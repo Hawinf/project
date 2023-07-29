@@ -293,9 +293,9 @@
         width: 100%;
         margin-right: 8%;
     }
-    .mid-section {
+    /* .mid-section {
         margin-right: 11%;
-    }
+    } */
     .fisrt-section {
         margin: 0;
     }
@@ -304,4 +304,5 @@
     .profile-picture img {
         padding-right: 5px;
     }
+    
 }
