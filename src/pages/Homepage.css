@@ -4,7 +4,7 @@
 .homepage {
     /* background: black; */
     width: 100%;
-    height: 100%;
+    height: 100vh;
     font-family: 'Alumni Sans', sans-serif;
     background-image: url(../assets/background.jpg);
     background-size: cover;
@@ -12,7 +12,6 @@
 .fisrt-section {
     display: flex;
     justify-content: center;
-    
 }
 
 .profile-picture {
@@ -265,3 +264,21 @@
         margin-right: 10px;
     }
 }
+@media (max-width: 472px) {
+    .profile-picture {
+        width: 30%;
+    }
+    .portofolio img {
+        width: 100px;
+        height: 100px;
+    }
+    .text-typing {
+        margin-right: 8%;
+    }
+    .mid-section {
+        margin-right: 11%;
+    }
+    .fisrt-section {
+        margin: 0 5%;
+    }
+} 
