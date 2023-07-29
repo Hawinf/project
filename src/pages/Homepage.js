@@ -36,7 +36,7 @@ const Homepage = () => {
                         <div className="profile-desc">
                             <p className="tittle">A Frontend Developer</p>
                             <h4 className="name">Hawin Fahmi</h4>
-                            <p className="tittle">I am a Frontend Developer based in Dubai</p>
+                            <p className="tittle-1">I am a Frontend Developer based in Dubai</p>
                         </div>
                     </div>
                 </Link>

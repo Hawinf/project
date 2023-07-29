@@ -268,8 +268,11 @@
     .profile-picture {
         width: 27%;
     }
+    .profile-desc .tittle-1 {
+        display: none;
+    }
     .portofolio img {
-        width: 78px;
+        width: 60px;
         height: 100px;
     }
     .text-typing {
