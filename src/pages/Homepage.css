@@ -283,6 +283,11 @@
         margin-right: 11%;
     }
     .fisrt-section {
-        margin: 0 5%;
+        margin: 0 ;
     }
 } 
+@media (max-width: 430px) {
+    .profile-picture img {
+        padding-right: 5px;
+    }
+}
