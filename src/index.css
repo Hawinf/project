@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* CSS RESET */
+/* CSS Reset */
+
+/* Box sizing border-box is recommended to include padding and border in element's total width and height */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Remove default margin and padding for all elements */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, blockquote, figure,
+fieldset, legend, textarea, pre, iframe, hr {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set default font size and family */
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Remove list styles (bullet points) */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove underline from hyperlinks */
+a {
+  text-decoration: none;
+}
+
+/* Remove any default styling on form elements */
+button, input, select, textarea {
+  appearance: none;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+/* Optional: Add additional resets as needed for specific elements or browser quirks */

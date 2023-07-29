@@ -1,0 +1,267 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@500&display=swap');
+
+.homepage {
+    /* background: black; */
+    width: 100%;
+    height: 100%;
+    font-family: 'Alumni Sans', sans-serif;
+    background-image: url(../assets/background.jpg);
+    background-size: cover;
+}
+.fisrt-section {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.profile-picture {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 5%;
+    border-radius: 5px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: bluer(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0blue, 0.37);
+}
+.about {
+    display: flex;
+    margin-top: 6px;
+}
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.profile-desc .tittle {
+    font-size: 15px;
+}
+
+
+
+
+.profile-desc .name {
+    font-size: 24px;
+}
+.profile-desc img {
+    width: 30px;
+}
+.portofolio img {
+    width: 130px;
+    height: 100px;
+    border-radius: 5px;
+}
+.mid-section {
+    display: flex;
+}
+.text-typing {
+    padding: 6px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: bluer(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0blue, 0.37);
+}
+/* test typing */
+.text-typing p {
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-color: #fff;
+    white-space: inherit;
+    letter-spacing: 0 0 rem;
+    animation: move-rtl 00000 15;
+}
+/* test typing */
+.right-section {
+    margin-top: 30px;
+    margin-right: 5%;
+}
+.portofolio {
+    color: black;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: bluer(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0blue, 0.37);
+}
+.portofolio .works {
+    font-size: 15px;
+}
+.weather {
+    width: 100%;
+    margin-left: 5px;
+    padding: 10px 10px 17px 10px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: bluer(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0blue, 0.37);
+}
+
+.auto-scroll img {
+    width: 35%;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+/* Technology Section */
+.technology-section {
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(1.5px);
+}
+.technology-section .tech-tittle {
+    text-align: center;
+    margin: 10px 0;
+    
+}
+.tech-tittle h1 {
+    font-size: 17px;
+}
+.technology img {
+    text-align: center;
+    width: 35px;
+    margin: 1px 50px;
+}
+
+/* Last Section Awal */
+.last-section {
+    display: flex;
+    margin: 10px;
+    margin-left: 4%;
+    font-size: 15px;
+}
+
+.last-section .download {
+    text-align: center;
+    margin: 5px;
+    width: 40%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(1.5px);
+}
+.download img {
+    margin-top: 2px;
+    width: 18px;
+}
+.download p {
+    color: black;
+}
+.repositories img {
+    margin-top: 2px;
+    width: 18px;
+}
+.last-section .repositories {
+    text-align: center;
+    margin: 5px;
+    width: 40%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(1.5px);
+}
+.repositories p {
+    color: black;
+}
+.last-section .social-media {
+    font-size: 25px;
+    margin: 5px;
+    width: 13%;
+    font-family: 'Alumni Sans', sans-serif;
+    text-align: center;
+    /* width: 40%; */
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(1.5px);
+}
+.last-section .social-media img {
+    width: 25px;
+}
+.social-media p {
+    font-size: 15px;
+}
+/* End Of Last Section */
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Breakpoint Responsive */
+@media (max-width: 992px) {
+    .profile-picture {
+        width: 60%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .profile-picture {
+        width: 80%;
+    }
+    .about {
+        margin-top: 20px;
+    }
+    .profile-picture img {
+        width: 120px;
+        height: 120px;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .profile-picture {
+        width: 41%;
+    }
+    .about {
+        /* text-align: center; */
+        display: block;
+        margin-top: 2px;
+    }
+    .profile-picture img {
+        width: 90px;
+        height: 90px;
+        border-radius: 5px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+    }
+    .profile-desc .tittle {
+        font-size: 10px;
+    }
+    .profile-desc .name {
+        font-size: 17px;
+    }
+    .last-section .social-media {
+        width: 50%;
+        margin-right: 10px;
+    }
+}

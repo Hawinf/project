@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@500&display=swap');
+
+.about-header {
+    background: url('../assets/background.jpg');
+    background-size: cover;
+    height: 100px;
+}
+.judul-about {
+    border-top:  1px solid rgb(144, 159, 232); ;
+    color: rgb(144, 159, 232);
+    border-bottom: 1px solid rgb(144, 159, 232);
+    background: rgba(2, 0, 36, 100);
+}
+.judul-about h4 {
+    font-family: 'Alumni Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 5px;
+}
+.profile-about {
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 12%, rgba(122,140,111,1) 100%, rgba(0,212,255,1) 100%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.profile-about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px 0 15px 0;
+    left: 2%;
+    z-index: 1;
+    top: -120px;
+    position: relative;
+    border: 1px solid rgb(144, 159, 232);;
+}
+
+/* Card Section */
+.cards {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+.card {
+    top: 60px;
+    left: 20px;
+    position: relative;
+    /* margin: 0 20px; */
+}
+.card img {
+    /* width: 50%; */
+    height: 150px;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: bluer(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0blue, 0.37);
+}
+
+@media (max-width:768px) {
+    .cards {
+        /* justify-content: center; */
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .card img {
+        margin: 0;
+        /* width: 100%; */
+    }
+}
