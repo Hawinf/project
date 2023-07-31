@@ -28,10 +28,10 @@ const About = () => {
                 <div className="card">
                     <img src={Cover1} />
                     <div className="card-link">
-                        <Link>
+                        <Link to='https://github.com/Hawinf/customer-page-binar-car-rental'>
                             Source Code
                         </Link>
-                        <Link>
+                        <Link  to='https://hawin.vercel.app/'>
                             Visit Site
                         </Link>
                     </div>
@@ -39,10 +39,10 @@ const About = () => {
                 <div className="card">
                     <img src={LandingPage1} />
                     <div className="card-link">
-                        <Link>
+                        <Link to='https://github.com/Hawinf/admin-page-binar-car-rental'>
                             Source Code
                         </Link>
-                        <Link>
+                        <Link  to='https://github.com/Hawinf/admin-page-binar-car-rental'>
                             Visit Site
                         </Link>
                     </div>
@@ -50,10 +50,10 @@ const About = () => {
                 <div className="card">
                     <img src={Landsnature} />
                     <div className="card-link">
-                        <Link>
+                        <Link to='https://github.com/Hawinf/landsnatures'>
                             Source Code
                         </Link>
-                        <Link>
+                        <Link to='https://landsnature.com/'>
                             Visit Site
                         </Link>
                     </div>
@@ -63,7 +63,7 @@ const About = () => {
             <div className="footer">
                 <p>© 2022 Hawinf. All rights reserved</p>
             </div>
-            
+
         </div>
     );
 };

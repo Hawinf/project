@@ -79,11 +79,14 @@
     width: 50%;
     /* background-color: blue; */
     background: rgb(2,0,36);
-background: linear-gradient(94deg, rgba(2,0,36,1) 12%, rgba(122,140,111,1) 100%, rgba(0,212,255,1) 100%);
+    background: rgb(2,0,36);
+background: linear-gradient(94deg, rgba(2,0,36,1) 42%, rgba(153,59,219,1) 100%, rgba(0,212,255,1) 100%);
+    /* background: linear-gradient(94deg, rgba(2,0,36,1) 12%, rgba(122,140,111,1) 100%, rgba(0,212,255,1) 100%); */
     margin-right: 2px;
     padding: 5px;
     border-radius: 0 0 5px 5px;
-    border: 1px solid rgb(149, 163, 237);
+    /* border: 1px solid rgb(149, 163, 237); */
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .footer {
     font-family: 'Alumni Sans', sans-serif;
