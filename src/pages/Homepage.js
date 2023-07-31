@@ -44,7 +44,8 @@ const Homepage = () => {
                 <div className="right-section">
                     <div className="text-typing">
                         <Marquee>
-                                <p>Hello world, i am a frontend developer. I am Currently Looking for opportunity to use my skills.</p>
+                                <p>Hello world, i am a passionate frontend developer. I am Currently Looking for opportunity to use my skills.</p>
+                                
                         </Marquee>
                     </div>
                     <div className="mid-section">

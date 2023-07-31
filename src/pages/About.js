@@ -3,7 +3,12 @@ import transition from "../transition";
 import Marquee from "react-fast-marquee";
 import Profile from '../assets/profile-2.jpeg';
 import Cover from '../assets/Cover.svg';
+import Cover1 from '../assets/cover1.png';
+import Landsnature from '../assets/landsnature.png';
+import LandingPage from '../assets/landing-page.svg';
+import LandingPage1 from '../assets/Landingpage1.png'
 import './About.css';
+import { Link } from "react-router-dom";
 
 const About = () => {
     return (
@@ -13,9 +18,7 @@ const About = () => {
             </div>
             <div className="judul-about">
                 <Marquee>
-                    <h4>about   about   about   about   about   about   about   about   about   about   about   about</h4>
-                    <h4>about   about   about   about   about   about   about   about   about   about   about   about</h4>
-                    <h4>about   about   about   about   about   about   about   about   about   about   about   about</h4>
+                    <h4>about my lastest works about my lastest works about my lastest works about my lastest works about my lastest works about my lastest works</h4>
                 </Marquee>
             </div>
             <div className="profile-about">
@@ -23,16 +26,44 @@ const About = () => {
             </div>
             <div className="cards">
                 <div className="card">
-                    <img src={Cover} />
+                    <img src={Cover1} />
+                    <div className="card-link">
+                        <Link>
+                            Source Code
+                        </Link>
+                        <Link>
+                            Visit Site
+                        </Link>
+                    </div>
                 </div>
                 <div className="card">
-                    <img src={Cover} />
+                    <img src={LandingPage1} />
+                    <div className="card-link">
+                        <Link>
+                            Source Code
+                        </Link>
+                        <Link>
+                            Visit Site
+                        </Link>
+                    </div>
                 </div>
                 <div className="card">
-                    <img src={Cover} />
-                    <p>kkkkkkkkkkk</p>
+                    <img src={Landsnature} />
+                    <div className="card-link">
+                        <Link>
+                            Source Code
+                        </Link>
+                        <Link>
+                            Visit Site
+                        </Link>
+                    </div>
                 </div>
             </div>
+
+            <div className="footer">
+                <p>© 2022 Hawinf. All rights reserved</p>
+            </div>
+            
         </div>
     );
 };

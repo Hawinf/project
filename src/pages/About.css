@@ -39,18 +39,19 @@
 .cards {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-around; */
 }
-.card {
+.card-1 {
+    /* width: 50%; */
     top: 60px;
     left: 20px;
     position: relative;
-    /* margin: 0 20px; */
 }
-.card img {
-    /* width: 50%; */
-    height: 150px;
-    margin-right: 5px;
+.card {
+    margin: 0 5px;
+    width: 31%;
+    top: 60px;
+    left: 20px;
+    position: relative;
     padding: 10px;
     border-radius: 5px;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
@@ -59,15 +60,78 @@
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0blue, 0.37);
 }
+.card img {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.card-link {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.card a {
+    text-align: center;
+    color: rgb(144, 159, 232);
+    font-family: 'Alumni Sans', sans-serif;
+    width: 50%;
+    background-color: blue;
+    margin-right: 2px;
+    padding: 5px;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid rgb(149, 163, 237);
+}
+.footer {
+    font-family: 'Alumni Sans', sans-serif;
+    margin-top: 100px;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
 
 @media (max-width:768px) {
     .cards {
-        /* justify-content: center; */
-        flex-direction: column;
-        flex-wrap: wrap;
+        /* flex-direction: column; */
+        /* flex-wrap: wrap; */
     }
     .card img {
         margin: 0;
         /* width: 100%; */
+        height: 130px;
+    }
+    .card {
+        width: 30%;
+    }
+}
+
+/* @media (max-width:768px) {
+    .cards {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+   
+} */
+@media (max-width:576px) {
+    .card img {
+        margin: 0;
+        /* width: 100%; */
+        height: 100px;
+    }
+}
+@media (max-width:550px) {
+    .cards {
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+    .card {
+        width: 87%;
+        margin-bottom: 10px;
+    }
+    .card img {
+        margin: 0;
+        /* width: 100%; */
+        height: 200px;
     }
 }
