@@ -75,7 +75,7 @@ const Homepage = () => {
         
             <div className="technology-section">
                 <div className="tech-tittle">
-                    <h1>Tech</h1>
+                    <h1>Tools</h1>
                 </div>
                 <div className="technology">
                     <Marquee>
