@@ -72,7 +72,7 @@ const Homepage = () => {
                             </div>
                         </Link>
                         <div className="weather">
-                            <div>
+                            <div className="input">
                                 <input 
                                 type="text"
                                 placeholder="Enter Your City"

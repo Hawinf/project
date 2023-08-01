@@ -124,7 +124,20 @@
     color: rgba(255, 255, 255, 0.18);
     /* box-shadow: 0 8px 32px 0 rgba(0, 0, 0blue, 0.37); */
 }
-
+.weather input {
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 5px;
+}
+.weather .input {
+    display: flex;
+    justify-content: space-between;
+}
+.weather button {
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.18);
+    color: rgb(144, 159, 232)
+}
 .auto-scroll img {
     width: 35%;
     padding: 10px;
