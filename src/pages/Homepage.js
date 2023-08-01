@@ -22,19 +22,21 @@ import './Homepage.css'
 const Homepage = () => {
 
     const [search, setSearch] = useState('');
+    const [weather, setWeather] = useState({})
    
-   const api = {
-        key: '74e3f4ac1ed2a986212bc7fa3ee09e22',
-        baseUrl: 'https://api.openweathermap.org/data/2.5/', 
+    const api = {
+        key: '8c835770d8a2b98be9a16d0df2abad57',
+        // baseUrl: 'https://api.openweathermap.org/data/2.5/', 
    }
 
    const handleSearch = () => {
     // console.log(search)
     fetch
-        (`${api.baseUrl}weather?=${search}&units=metric&APPID=${api.key}`)
+        (`https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=${api.key}&&unit=metric`)
         .then((res) => res.json())
         .then((results) => {
             console.log(results);
+            setSearch(results)
         })
    }
 
@@ -81,9 +83,18 @@ const Homepage = () => {
                                 <button onClick={handleSearch}>Search</button>
                             </div>
                             <div className="results">
-                                <p>New York, USA</p>
-                                <p>32 deg</p>
-                                <p>Sunny</p>
+                                { typeof search.main !== 'undefined' ? (
+                                    <>
+                                        <p>{search.name}</p>
+                                        <p>{search.main.temp} °C</p>
+                                        <p>{search.weather[0].description}</p>
+                                    </>
+                                ): (
+                                    <>
+                                        <p>Check Weather By</p>
+                                        <p>Submitting Your City</p>
+                                    </>
+                                )}
                             </div>
                         </div>
                     </div>
