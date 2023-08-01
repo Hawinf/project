@@ -40,8 +40,15 @@
     border-radius: 5px;
     margin-right: 10px;
 }
+.profile-desc {
+    color: rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0blue, 0.37);;
+}
 .profile-desc .tittle {
     font-size: 15px;
+}
+.profile-desc span {
+    color: rgb(255, 255, 119);
 }
 
 
@@ -52,6 +59,10 @@
 }
 .profile-desc img {
     width: 30px;
+}
+.portofolio p{
+    color: rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0blue, 0.37);
 }
 .portofolio img {
     /* width: 130px; */
@@ -95,7 +106,7 @@
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: bluer(10px);
     border: 1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0blue, 0.37);
+    /* box-shadow: 0 8px 32px 0 rgba(0, 0, 0blue, 0.37); */
 }
 .portofolio .works {
     font-size: 15px;
@@ -110,6 +121,8 @@
     -webkit-backdrop-filter: bluer(10px);
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0blue, 0.37);
+    color: rgba(255, 255, 255, 0.18);
+    /* box-shadow: 0 8px 32px 0 rgba(0, 0, 0blue, 0.37); */
 }
 
 .auto-scroll img {
@@ -136,6 +149,7 @@
 }
 .tech-tittle h1 {
     font-size: 17px;
+    color: rgba(255, 255, 255, 0.18);
 }
 .technology img {
     text-align: center;
@@ -167,7 +181,7 @@
     width: 18px;
 }
 .download p {
-    color: black;
+    color: rgba(255, 255, 255, 0.18);
 }
 .repositories img {
     margin-top: 2px;
@@ -185,7 +199,7 @@
     backdrop-filter: blur(1.5px);
 }
 .repositories p {
-    color: black;
+    color: rgba(255, 255, 255, 0.18);
 }
 .last-section .social-media {
     font-size: 25px;
@@ -206,6 +220,7 @@
 }
 .social-media p {
     font-size: 15px;
+    color: rgba(255, 255, 255, 0.18);
 }
 /* End Of Last Section */
 

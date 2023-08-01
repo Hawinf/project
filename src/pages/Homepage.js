@@ -51,7 +51,7 @@ const Homepage = () => {
                         </div>
                         <div className="profile-desc">
                             <p className="tittle">Hi, Everyone</p>
-                            <h4 className="name">Hawin Fahmi</h4>
+                            <h4 className="name">Hawin <span>Fahmi</span></h4>
                             <p className="tittle-1">I am a Frontend Developer based in Dubai</p>
                         </div>
                     </div>
