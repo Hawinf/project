@@ -88,7 +88,7 @@ background: linear-gradient(94deg, rgba(2,0,36,1) 42%, rgba(153,59,219,1) 100%, 
     border: 1px solid rgb(149, 163, 237);
     /* border: 2px solid rgba(255, 255, 255, 0.18); */
 }
-.footer {
+.footer-about {
     font-family: 'Alumni Sans', sans-serif;
     margin-top: 100px;
     position: relative;

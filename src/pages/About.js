@@ -60,7 +60,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="footer">
+            <div className="footer-about">
                 <p>© 2022 Hawinf. All rights reserved</p>
             </div>
 

@@ -20,8 +20,24 @@ import Note from '../assets/file-waveform-solid.svg';
 import './Homepage.css'
 
 const Homepage = () => {
+
+    const [search, setSearch] = useState('');
    
-    
+   const api = {
+        key: '74e3f4ac1ed2a986212bc7fa3ee09e22',
+        baseUrl: 'https://api.openweathermap.org/data/2.5/', 
+   }
+
+   const handleSearch = () => {
+    // console.log(search)
+    fetch
+        (`${api.baseUrl}weather?=${search}&units=metric&APPID=${api.key}`)
+        .then((res) => res.json())
+        .then((results) => {
+            console.log(results);
+        })
+   }
+
 
     return (
         
@@ -60,8 +76,9 @@ const Homepage = () => {
                                 <input 
                                 type="text"
                                 placeholder="Enter Your City"
+                                onChange={(e) => setSearch(e.target.value)}
                                 />
-                                <button>Search</button>
+                                <button onClick={handleSearch}>Search</button>
                             </div>
                             <div>
                                 <p>New York, USA</p>
