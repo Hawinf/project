@@ -126,11 +126,14 @@
 }
 .weather input {
     border: 1px solid rgba(255, 255, 255, 0.18);
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .weather .input {
     display: flex;
     justify-content: space-between;
+}
+.weather .results {
+    margin: 2px;
 }
 .weather button {
     border: 1px solid rgba(255, 255, 255, 0.18);
@@ -342,5 +345,10 @@
     .profile-picture img {
         padding-right: 5px;
     }
-    
+    .weather .input {
+        display: block;
+    }
+    .weather input {
+        margin-bottom: 2px;
+    }
 }

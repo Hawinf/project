@@ -80,7 +80,7 @@ const Homepage = () => {
                                 />
                                 <button onClick={handleSearch}>Search</button>
                             </div>
-                            <div>
+                            <div className="results">
                                 <p>New York, USA</p>
                                 <p>32 deg</p>
                                 <p>Sunny</p>
