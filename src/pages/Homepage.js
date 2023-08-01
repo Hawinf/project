@@ -68,7 +68,7 @@ const Homepage = () => {
                         <Link to='/about' className="portofolio">
                             <div>
                                 <img src={Portofolio} />
-                                <p className="works">My Lastest Works</p>
+                                <p className="works">My Latest Works</p>
                             </div>
                         </Link>
                         <div className="weather">
