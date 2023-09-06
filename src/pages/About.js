@@ -53,7 +53,7 @@ const About = () => {
                         <Link to='https://github.com/Hawinf/landsnatures'>
                             Source Code
                         </Link>
-                        <Link to='https://landsnature.com/'>
+                        <Link to='https://landsnature.vercel.app/'>
                             Visit Site
                         </Link>
                     </div>
